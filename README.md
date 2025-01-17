@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple template for creating Telegram bots using FastAPI and PyTelegramBotAPI.
+A simple template for creating Telegram bots using [FastAPI](https://fastapi.tiangolo.com/) and [PyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
 
 ## Getting Started
 
@@ -88,6 +88,10 @@ Please feel free to fork this repository and modify it to suit your needs. If yo
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Acknowledgements
+
+A big thank you to [Eternnoir](https://github.com/eternnoir) for creating [PyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI), which is the foundation of this project.
 
 ## License
 
