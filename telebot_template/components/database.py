@@ -3,7 +3,7 @@ from peewee import PostgresqlDatabase
 # from peewee import MySQLDatabase
 
 from telebot_template.constants import DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME
-from telebot_template.constants import DB_PATH
+# from telebot_template.constants import DB_PATH
 
 # db = SqliteDatabase(
 #     DB_PATH, {
