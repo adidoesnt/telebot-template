@@ -22,13 +22,6 @@ def get_last_message(chat_id, from_id):
     try:
         print(f"Getting last message for chat_id: {chat_id}, from_id: {from_id}")
         
-        messages = Message.select().where(
-            Message.chat_id == chat_id,
-            Message.from_id == from_id
-        ).order_by(
-            Message.id.desc()
-        ).get()
-        
         message = Message.select().where(
             Message.chat_id == chat_id,
             Message.from_id == from_id
