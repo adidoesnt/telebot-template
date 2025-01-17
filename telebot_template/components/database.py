@@ -29,3 +29,13 @@ db = PostgresqlDatabase(
     user=DB_USER,
     password=DB_PASSWORD,
 )
+
+def check_db_connection():
+    try:
+        print("Checking database connection...")
+        
+        db.connect()
+        
+        print("Database connection successful.")
+    except Exception as e:
+        print(f"Database connection failed: {e}")
